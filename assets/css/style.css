@@ -1,0 +1,123 @@
+body{
+
+	color: #FFF;
+}
+
+
+div#questionArea {
+	background-color: #0000FF;
+	width: 60%;
+	height: 450px;
+	margin: 70px auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 4px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+
+
+h1 {
+	font-size: 28pt;
+	text-align: center;
+	margin-top: 30px;
+}
+
+p {
+	font-size: 14pt;
+}
+
+
+span#yellow {
+	color: #FFD700;
+}	
+
+#btnWrapper	{
+	text-align: center;
+	margin-top: 125px;
+}
+
+button#begin {
+	width: 200px;
+	background-color: #FFD700;
+	border-radius: 2px;
+	font-size: 12pt;
+	font-weight: bold;
+	border-radius: 10px;
+}
+			  				  
+div#gameStart {
+	display: none;
+	margin-top: 20px;
+}	
+
+#divAnswers {
+	display: none;
+}
+
+p.timeRemaining {
+	text-align: center;
+	font-size: 14pt;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+span#time {
+	font-weight: bold;
+}
+
+button.answers{
+	color: #FFD700;
+	font-weight: bold;
+	width: 35%;
+	margin: 10px 20px;
+	cursor: pointer;
+	background: black;
+	border-radius: 10px;
+	float: left;
+	padding: 7px;
+}
+
+.text{
+	margin: 0 auto;
+	background: #0000FF;
+	color: red;
+	width: 80%;
+	line-height: 160%;
+	font-size: 22px;
+	font-family: 'Architects Daughter', cursive;
+	border-radius: 12px;
+	clear: both;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+#correctMovieImage	{
+	margin-top: 20px;
+	height: 200px;
+	width: 200px;
+	opacity: 1;	
+}
+
+#gameComplete {
+	display: none;
+	margin-top: 20px;
+}
+
+div#restartPlaceholder button {
+width: 200px;
+background-color: #FFD700;
+text-shadow: none;
+border-radius: 2px;
+font-size: 11pt;
+font-weight: bold;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+div#restartPlaceholder button:hover
+ {
+ 	color: #FFD700;
+ 	background-color: #000;
+ }
